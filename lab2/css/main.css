@@ -1,0 +1,41 @@
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: #484848; 
+   } 
+
+a{
+	color: #834DB5;
+}
+
+h5
+{
+	background-color:#ABB1BA
+}
+
+.tab
+{
+	margin-left:  180px;
+	margin-right: 200px;
+}
+.card-color
+{
+	background-color:  #484848;
+}
+
+.text-color
+{
+	background-color: #ABB1BA;
+}
+
+#footer {
+    position: relative;
+    top:100px;
+    left: 0; bottom: 0; 
+    padding: 0;
+    width: 100%; 
+   }
+

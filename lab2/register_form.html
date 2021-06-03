@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<style type="text/css">
+		BODY
+		{		
+				background-color: #484848;
+				background-image:url(images/1.jpg),url(images/1.jpg);
+				background-position: left, right;
+		}
+	</style>
+</head>
+<body>	
+			<header>
+		 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom shadow-sm">
+      		<h2 class="my-0 mr-md-auto font-weight-bold pr-2">Name of the site</h2>
+      		<img class="mb-2 mr-2" src="logo.png" alt="" width="64" height="64">
+      		<h5 class="my-0 mr-md-auto font-weight-normal text-color border rounded "> A small blog specially for you and your friends </h5>
+      <a class="btn btn-outline-secondary " href="login_form.html">Sign up</a>
+      <a class="btn btn-outline-primary" href="register_form.html">Regist</a>
+    </div>
+	</header>
+
+
+
+  <div class="row center mt-5">
+    <div class="col-md-8 order-md-1 bg-dark text-light">
+      <form class="needs-validation">
+        <div class="d-flex flex-column center">
+          <h4 class="mb-3">Input Your Data</h4>
+          <div class="col-md-6 mb-3">
+            <label for="firstName">First name</label>
+            <input type="text" class="form-control" name="firstName">
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lastName">Last name</label>
+            <input type="text" class="form-control" name="lastName">
+          </div>
+            <div class="col-6 mb-3">
+              <label for="lastName">Nickname</label>
+              <input type="text" class="form-control" name="nickname">
+            </div>
+          <div class="col-6 mb-3">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" placeholder="you@example.com" name="email">
+          </div>
+            <div class="col-6 mb-3">
+              <label for="lastName">Password</label>
+              <input type="password" class="form-control" name="password">
+            </div>
+           <button class="btn col-6 btn-primary btn-lg btn-block mb-5" type="submit">Register</button>
+        </div>
+        </div>
+     </form>
+    </div>
+  </div>
+  </div>     
+</div>
+
+<script src="js/controller/ControllerRegist.js" type="module"></script>
+
+</body>
+</html>

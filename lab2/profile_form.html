@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<style type="text/css">
+		BODY
+		{		
+				background-color: #484848;
+				background-image:url(images/1.jpg),url(images/1.jpg);
+				background-position: left, right;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom shadow-sm">
+      		<h2 class="my-0 mr-md-auto font-weight-bold pr-2">Name of the site</h2>
+      		<img class="mb-2 mr-2" src="logo.png" alt="" width="64" height="64">
+      		<h5 class="my-0 mr-md-auto font-weight-normal text-color border rounded "> A small blog specially for you and your friends </h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+		<a class="btn btn-outline-info p-2 text-dark" href="createPost.html">Post</a>
+      	<a class="btn btn-outline-info p-2 text-dark " href="index.html">Home</a>
+        <a class="btn btn-outline-info p-2 text-dark " href="info.html">Info</a>
+        <a class="btn btn-outline-info p-2 text-dark " href="profile_form.html">Profile</a>
+      </nav>
+	  <button class="btn btn-outline-primary" id="logout">Log out</button>
+    </div>
+	</header>
+
+	<div class="container bg-dark border-dark rounded">
+		<div class="row">
+			<img class="mb-2 mt-5  bg-dark " src="logo.png" alt="" width="512" height="512">
+		</div>
+	</div>
+
+	
+	<script src="js/controller/profile.js" type="module"></script>
+	<script src="js/controller/Redirect.js"></script>
+	<script src="js/controller/logout.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<style type="text/css">
+		BODY
+		{		
+				background-color: #484848;
+				background-image:url(images/1.jpg),url(images/1.jpg);
+				background-position: left, right;
+		}
+	</style>
+</head>
+<body>
+		<header>
+		 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom shadow-sm">
+      		<h2 class="my-0 mr-md-auto font-weight-bold pr-2">Name of the site</h2>
+      		<img class="mb-2 mr-2" src="logo.png" alt="" width="64" height="64">
+      		<h5 class="my-0 mr-md-auto font-weight-normal text-color border rounded "> A small blog specially for you and your friends </h5>
+      
+			  <a class="btn btn-outline-secondary " href="login_form.html">Sign up</a>
+      <a class="btn btn-outline-primary" href="register_form.html">Regist</a>
+    </div>
+	</header>
+
+
+		<div class="container bg-dark  mt-5 border-dark rounded ">
+<div class="row center">
+	<div class="col-5">
+	<form class="form-signin" action ="index.html"+>
+		<h2 class="h3 mb-4 text-light font-wtight-normal"> Please, sign in</h2>
+		 <label for="inputEmail" class="sr-only">Email adress</label>
+		 <input type="email" id="inputEmail" class="form-control mb-3" placeholder="Email address" name="email">
+      	 <label for="inputPassword" class="sr-only">Password</label>
+      	 <input type="password" id="inputPassword" class="form-control mb-5" placeholder="Password" name="password">
+     <button class="btn btn-lg btn-primary btn-block mb-5"  type="submit">Sign in</button></form> 	
+
+
+	 <script src="js/controller/login.js" type="module"></script>
+</body>
+</html>
